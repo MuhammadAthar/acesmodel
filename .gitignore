@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+backend/vendor/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Build outputs
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+backend/bootstrap/cache/*.php
+
+# Logs
+backend/storage/logs/*.log
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
